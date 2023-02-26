@@ -1,4 +1,5 @@
 from selenium import webdriver
+# https://www.udemy.com/course/automate-everything-with-python/
 
 def get_driver():
     # Set options

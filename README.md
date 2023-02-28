@@ -1,3 +1,3 @@
 # libraries_for_scraping
 
-### html2text, codecs, configparser, datetime, time, requests, regex, errors
+### html2text, codecs, configparser, datetime, docx, pickle, time, requests, regex

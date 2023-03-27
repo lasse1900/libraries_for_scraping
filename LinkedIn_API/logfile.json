@@ -1,0 +1,698 @@
+{
+  "staffingCompany": false,
+  "companyIndustries": [
+    {
+      "localizedName": "Electrical & Electronic Manufacturing",
+      "entityUrn": "urn:li:fs_industry:112"
+    }
+  ],
+  "callToAction": {
+    "callToActionType": "LEARN_MORE",
+    "visible": true,
+    "callToActionMessage": {
+      "textDirection": "USER_LOCALE",
+      "text": "Learn more"
+    },
+    "url": "https://social.abb/website"
+  },
+  "staffCount": 94948,
+  "adsRule": "REDUCED",
+  "companyEmployeesSearchPageUrl": "https://www.linkedin.com/vsearch/p?f_CC=277579",
+  "viewerFollowingJobsUpdates": false,
+  "staffCountRange": {
+    "start": 10001
+  },
+  "permissions": {
+    "landingPageAdmin": false,
+    "admin": false,
+    "adAccountHolder": false
+  },
+  "logo": {
+    "image": {
+      "com.linkedin.common.VectorImage": {
+        "artifacts": [
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1602668648845?e=1687996800&v=beta&t=M-SNinjy3tjJqiZC77Qly_YjU3V77DsF9IABKKFC9qE",
+            "expiresAt": 1687996800000,
+            "height": 200
+          },
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1602668648845?e=1687996800&v=beta&t=oksaJ3wImQDAIah2oygbsfgY-T3HJMU98AM86cyCWBE",
+            "expiresAt": 1687996800000,
+            "height": 100
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1602668648845?e=1687996800&v=beta&t=jMzDRr0OWaaSUZ3deLm99EOdY8Oph9WsTFFe-lKS6no",
+            "expiresAt": 1687996800000,
+            "height": 400
+          }
+        ],
+        "rootUrl": "https://media.licdn.com/dms/image/C4D0BAQHPGAMgqJMBZQ/company-logo_"
+      }
+    },
+    "type": "SQUARE_LOGO"
+  },
+  "claimable": false,
+  "affiliatedCompaniesResolutionResults": {
+    "urn:li:fs_normalized_company:300516": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:300516",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:300516",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 150731
+      },
+      "description": "Constant innovation and strong partnership are two areas that have characterized B&R for over 40 years now. At B&R our slogan \u0093Perfection in Automation\u0094 is our mission. To us, perfection doesn\u0092t just mean developing the best solutions in industrial automation \u0096 it also means developing the best relationships \u0096 not only with our customers and partners but also with our employees. We do business in more than 180 locations around the world and are made up of more than 3,500 representatives who fulfill our mission. Our teams are always on hand to provide our customers with comprehensive service and support. From conceptual design to after-sales service, we accompany our customers along every step of the way. We develop scalable hardware and software solutions that work together seamlessly and give our customers a technological edge in their respective market.\n\nImprint:  https://www.br-automation.com/en/about-us/publishing-information/",
+      "companyIndustries": [
+        {
+          "localizedName": "Industrial Automation",
+          "entityUrn": "urn:li:fs_industry:147"
+        }
+      ],
+      "url": "https://www.linkedin.com/company/b&r-industrial-automation",
+      "entityUrn": "urn:li:fs_normalized_company:300516",
+      "name": "B&R Industrial Automation",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1654748175140?e=1687996800&v=beta&t=x2zqxGiF9WEICvAnjkPRG2MamQqwQ54YIbXcVlqn-M8",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1654748175140?e=1687996800&v=beta&t=0scZOao23nC7QRQW3PMH61FsJmqZ7QWtNLLq3jhXWNE",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1654748175140?e=1687996800&v=beta&t=kFfjNfOuGWowa-yVXTUL9a7otSj_be2acDcqx17WYCI",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C560BAQHy91G5JDgK_g/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": false,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "b&r-industrial-automation"
+    }
+  },
+  "specialities": [
+    "ABB Ability",
+    "Robotics",
+    "Industry",
+    "Motors and generators",
+    "Drives",
+    "Smart buildings",
+    "E-mobility",
+    "Marine vessels",
+    "Data centers",
+    "Renewable energy",
+    "Technology",
+    "Energy",
+    "Utilities",
+    "Transport",
+    "Infrastructure",
+    "Oil, gas & chemicals",
+    "Semiconductors",
+    "Measurement & analytics",
+    "Control rooms",
+    "Factory of the Future",
+    "Sustainability",
+    "Automation",
+    "Electrification",
+    "Electric Vehicles"
+  ],
+  "confirmedLocations": [
+    {
+      "country": "CH",
+      "geographicArea": "ZH",
+      "city": "Zurich",
+      "postalCode": "8050",
+      "description": "ABB headquarter",
+      "streetAddressOptOut": false,
+      "headquarter": true,
+      "line1": "Affolternstrasse 44"
+    }
+  ],
+  "followingInfo": {
+    "entityUrn": "urn:li:fs_followingInfo:urn:li:company:277579",
+    "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:277579",
+    "following": false,
+    "followingType": "DEFAULT",
+    "followerCount": 3023114
+  },
+  "viewerEmployee": false,
+  "affiliatedCompaniesWithEmployeesRollup": [],
+  "lcpTreatment": true,
+  "affiliatedCompaniesWithJobsRollup": [
+    "urn:li:fs_normalized_company:300516",
+    "urn:li:fs_normalized_company:31406"
+  ],
+  "associatedHashtagsResolutionResults": {
+    "urn:li:fs_contentTopicData:urn:li:hashtag:innovation": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#innovation",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "04\u00a6dS\u008aC+\u0094U\u00e2\u008e\u00dd,\u00d6\u00a8",
+          "backendUrn": "urn:li:hashtag:innovation"
+        },
+        "tracking": {
+          "trackingId": "MDSmZFOKQyuUVeKO3SzWqA=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:innovation,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:innovation",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "FOLLOWING",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:innovation",
+          "followerCount": 38576084,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:innovation",
+          "following": true,
+          "trackingUrn": "urn:li:hashtag:innovation"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    },
+    "urn:li:fs_contentTopicData:urn:li:hashtag:sustainability": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#sustainability",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "\u0097^\u00b3\u00f2'oJ\u001c\u00a87\u00a7C\u00cc\u008b\u008c\u0084",
+          "backendUrn": "urn:li:hashtag:sustainability"
+        },
+        "tracking": {
+          "trackingId": "l16z8idvShyoN6dDzIuMhA=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:sustainability,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:sustainability",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "DEFAULT",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:sustainability",
+          "followerCount": 13211067,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:sustainability",
+          "following": false,
+          "trackingUrn": "urn:li:hashtag:sustainability"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    },
+    "urn:li:fs_contentTopicData:urn:li:hashtag:technology": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#technology",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "0Q\u009f\u00c6\u00d5IN&\u00ac\u00da\u007f\u00ea\u00a2\"N\u0004",
+          "backendUrn": "urn:li:hashtag:technology"
+        },
+        "tracking": {
+          "trackingId": "MFGfxtVJTias2n/qoiJOBA=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:technology,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:technology",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "FOLLOWING",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:technology",
+          "followerCount": 26274662,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:technology",
+          "following": true,
+          "trackingUrn": "urn:li:hashtag:technology"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    }
+  },
+  "name": "ABB",
+  "tagline": "We are a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future.",
+  "$recipeType": "com.linkedin.voyager.deco.organization.web.WebFullCompanyMain",
+  "fundingData": {
+    "fundingRoundListCrunchbaseUrl": "https://www.crunchbase.com/organization/abb/funding_rounds/funding_rounds_list?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=all_fundings",
+    "lastFundingRound": {
+      "investorsCrunchbaseUrl": "https://www.crunchbase.com/funding_round/abb-grant--1670eb0e?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=all_investors",
+      "leadInvestors": [],
+      "fundingRoundCrunchbaseUrl": "https://www.crunchbase.com/funding_round/abb-grant--1670eb0e?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=last_funding",
+      "fundingType": "GRANT",
+      "moneyRaised": {
+        "currencyCode": "USD",
+        "amount": "2700000"
+      },
+      "numOtherInvestors": 0,
+      "announcedOn": {
+        "month": 9,
+        "day": 23,
+        "year": 2013
+      }
+    },
+    "companyCrunchbaseUrl": "https://www.crunchbase.com/organization/abb?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta",
+    "numFundingRounds": 1,
+    "updatedAt": 1639144014
+  },
+  "overviewPhoto": {
+    "com.linkedin.common.VectorImage": {
+      "artifacts": [
+        {
+          "width": 900,
+          "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/C4D1CAQEYIZgKipWmUA/company-overview_900_300/0/1519842560011?e=1680530400&v=beta&t=8ilMwJ5SLt2P_8YnnbRN8bLjlpR-iO5YpwjpT3YQacU",
+          "expiresAt": 1680530400000,
+          "height": 300
+        }
+      ],
+      "rootUrl": ""
+    }
+  },
+  "multiLocaleTaglines": {
+    "localized": {
+      "fr_FR": "ABB est une entreprise leader mondial des technologies qui dynamise la transformation de la soci\u00e9t\u00e9 et de l\u0092industrie. ",
+      "en_US": "We are a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future."
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "description": "ABB is a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future. The company\u0092s solutions connect engineering know-how and software to optimize how things are manufactured, moved, powered and operated. Building on more than 130 years of excellence, ABB\u0092s ~105,000 employees are committed to driving innovations that accelerate industrial transformation.  www.abb.com\nPrivacy notice & house rules: https://social.abb/social-media-information\n\nBefore applying for a job at ABB , please read our Fraud Warning: https://careers.abb/global/en/fraud-warning",
+  "entityUrn": "urn:li:fs_normalized_company:277579",
+  "headquarter": {
+    "country": "CH",
+    "geographicArea": "ZH",
+    "city": "Zurich",
+    "postalCode": "8050",
+    "line1": "Affolternstrasse 44"
+  },
+  "showcasePagesResolutionResults": {
+    "urn:li:fs_normalized_company:9487024": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:9487024",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:9487024",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 386625
+      },
+      "description": "ABB Process Automation business offers a range of solutions for process and hybrid industries, including industry-specific integrated automation, electrification and digital solutions, control technologies, software and advanced services, as well as measurement & analytics and marine offerings.\n\nBased on its deep domain knowledge, experience and expertise in delivering world-class automation products, systems and solutions, a wide area of complimenting digital and collaborative solutions across applications and sectors, the Process Automation business helps customers remain competitive, improving their ROI and running safe and productive operations. \n\nPrivacy notice & house rules: https://social.abb/social-media-information",
+      "companyIndustries": [
+        {
+          "localizedName": "Industrial Automation",
+          "entityUrn": "urn:li:fs_industry:147"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abb-process-automation/",
+      "entityUrn": "urn:li:fs_normalized_company:9487024",
+      "name": "ABB Process Automation",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1519901896068?e=1687996800&v=beta&t=_mW0OufisLrwx2DLjfaf01ALMTuOzQCOgYVJ1yvM9dg",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1519901896068?e=1687996800&v=beta&t=ojNixB7s3z5-KXeI4f_UZB3JJa2QWYgNnryqB9pdANM",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1519901896068?e=1687996800&v=beta&t=FvkFt8zqvnS6Kul6SktUp7-f5oeEB71AT7xmZigsns4",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C510BAQHBitk3D_Uc0g/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abb-process-automation"
+    },
+    "urn:li:fs_normalized_company:14015154": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:14015154",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:14015154",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 69924
+      },
+      "description": "ABB is a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future. The company\u0092s solutions connect engineering know-how and software to optimize how things are manufactured, moved, powered and operated. Building on more than 130 years of excellence, ABB\u0092s ~105,000 employees are committed to driving innovations that accelerate industrial transformation.\nLearn more: https://new.abb.com/about/our-businesses/motion",
+      "companyIndustries": [
+        {
+          "localizedName": "Electrical & Electronic Manufacturing",
+          "entityUrn": "urn:li:fs_industry:112"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abb-motion/",
+      "entityUrn": "urn:li:fs_normalized_company:14015154",
+      "name": "ABB Motion",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1553089847923?e=1687996800&v=beta&t=zE3Dqc2zsseM1WCE_B5aA0NDmZD6FaBHxPJj-giyakM",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1553089847923?e=1687996800&v=beta&t=jZiKDF4_IoUqygYm-unDz7hhosy9ktbcvbzhbao7Fng",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1553089847923?e=1687996800&v=beta&t=akQ8D72PubyDJgAfXRu8F4DuJ8YduCupYzLAAlwYpCA",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C4D0BAQFjatNLSDeolg/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abb-motion"
+    },
+    "urn:li:fs_normalized_company:13223282": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:13223282",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:13223282",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 303682
+      },
+      "description": "ABB Robotics & Discrete Automation is a pioneer in robotics, machine automation and digital services, providing innovative solutions for a diverse range of industries, from automotive to electronics to logistics. As one of the world\u0092s leading robotics and machine automation suppliers, we have shipped more than 500,000 robot solutions. We help our customers of all sizes to increase productivity, flexibility and simplicity and to improve output quality. We support their transition towards the connected and collaborative factory of the future. ABB Robotics & Discrete Automation employs more than 11,000 people at over 100 locations in more than 53 countries.",
+      "companyIndustries": [
+        {
+          "localizedName": "Industrial Automation",
+          "entityUrn": "urn:li:fs_industry:147"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abbrobotics/",
+      "entityUrn": "urn:li:fs_normalized_company:13223282",
+      "name": "ABB Robotics",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1519865513949?e=1687996800&v=beta&t=FX4MsTMl_4o6FOjM_bGOIvWBKrJT_WQvj8ZfdZIJQD4",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1519865513949?e=1687996800&v=beta&t=OfTWSTjqCJSV6UylaZZNVRFkYrc6Xph8erW7XLMNvh8",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1519865513949?e=1687996800&v=beta&t=fJhI9BuyZ-xMDk7_Yz6DnGmfnogz5JSWZVRhkROR6_k",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C560BAQFimRsFfeUVAw/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abbrobotics"
+    },
+    "urn:li:fs_normalized_company:11169169": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:11169169",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:11169169",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 347365
+      },
+      "description": "ABB Electrification is a global technology leader in electrical products and solutions, operating in more than 100 countries with over 50,000 employees globally. We are dedicated to delivering safe, smart, and sustainable electrification for our customers across utilities, industry, buildings, infrastructure, and mobility.",
+      "companyIndustries": [
+        {
+          "localizedName": "Electrical & Electronic Manufacturing",
+          "entityUrn": "urn:li:fs_industry:112"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abb-electrification-products/",
+      "entityUrn": "urn:li:fs_normalized_company:11169169",
+      "name": "ABB Electrification",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1519897949325?e=1687996800&v=beta&t=kBYCqLXu-V7zrinMLU3qqPoCzuNU9T5yxc1H9mEPZpY",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1519897949325?e=1687996800&v=beta&t=rX8d49xpzpBGXMh75eh77gAiar0RigwIRz6JLbXq2bU",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1519897949325?e=1687996800&v=beta&t=sluCNKg62QSmweJEqcJANR6n_WofvlSBdVU6TxX847s",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C510BAQEc5P1WDIqadQ/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abb-electrification-products"
+    },
+    "urn:li:fs_normalized_company:43351129": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:43351129",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:43351129",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 4274
+      },
+      "description": "ABB Technology Ventures (ATV) is the venture capital unit of ABB Group. ATV partners with breakthrough technology companies aligned with ABB\u0092s goal to write the future of industrial digitalization and has invested more than $200 million into start-ups spanning a range of sectors including robotics, drones, industrial IoT, AI/machine learning, cybersecurity, smart buildings, electric mobility and distributed energy.",
+      "companyIndustries": [
+        {
+          "localizedName": "Electrical & Electronic Manufacturing",
+          "entityUrn": "urn:li:fs_industry:112"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abb-technology-ventures/",
+      "entityUrn": "urn:li:fs_normalized_company:43351129",
+      "name": "ABB Technology Ventures",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1643620742398?e=1687996800&v=beta&t=8rGOBHG4o1P0bqYvC03sYq8uJq1fYvvYwSyK8L3_xb0",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1643620742398?e=1687996800&v=beta&t=mAeHZtYT43CMWLmRmijuJUYHo6M5HFJYGYAc5g1YjVw",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1643620742398?e=1687996800&v=beta&t=9zmuskm-vZlArYDNawHv0n9zpJUx2OWwqeCJIdP2iU8",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C4E0BAQFRMgCtQofC-A/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abb-technology-ventures"
+    },
+    "urn:li:fs_normalized_company:35598784": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:35598784",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:35598784",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 28373
+      },
+      "description": "ABB Ability\u0099 digital solutions deliver ABB\u0092s deep domain expertise from device to edge to cloud to help our customers know more, do more, do better \u0097 together. \n",
+      "companyIndustries": [
+        {
+          "localizedName": "Information Technology & Services",
+          "entityUrn": "urn:li:fs_industry:96"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/abb-ability/",
+      "entityUrn": "urn:li:fs_normalized_company:35598784",
+      "name": "ABB Ability",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/0/1551781216718?e=1687996800&v=beta&t=3UaOR5SN4iXDpAksD_1OGJOTznK83ontr6oXczcm2lU",
+                "expiresAt": 1687996800000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/0/1551781216718?e=1687996800&v=beta&t=wgVpKrTOymMgo47XgSU3585dd_bnrDXXQmBQm7-0Jkw",
+                "expiresAt": 1687996800000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/0/1551781216718?e=1687996800&v=beta&t=FowiranmwciPd4K4QchZ0uOmiVK_pPuCm9JCq2TutHI",
+                "expiresAt": 1687996800000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/C4E0BAQFppzLDh2tsrA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "abb-ability"
+    }
+  },
+  "paidCompany": true,
+  "universalName": "abb",
+  "viewerPendingAdministrator": false,
+  "companyPageUrl": "https://social.abb/website",
+  "viewerConnectedToAdministrator": false,
+  "affiliatedCompanies": [
+    "urn:li:fs_normalized_company:300516",
+    "urn:li:fs_normalized_company:31406"
+  ],
+  "dataVersion": -1,
+  "companyType": {
+    "localizedName": "Public Company",
+    "code": "PUBLIC_COMPANY"
+  },
+  "coverPhoto": {
+    "com.linkedin.voyager.common.MediaProcessorImage": {
+      "id": "/AAEAAQAAAAAAAA1IAAAAJGQxOTBjNDBhLWM0NTgtNDdkOC04ZDVhLTQ4ZDZlNmM2NWE4ZA.png"
+    }
+  },
+  "associatedHashtags": [
+    "urn:li:fs_contentTopicData:urn:li:hashtag:technology",
+    "urn:li:fs_contentTopicData:urn:li:hashtag:sustainability",
+    "urn:li:fs_contentTopicData:urn:li:hashtag:innovation"
+  ],
+  "groups": [],
+  "url": "https://www.linkedin.com/company/abb",
+  "showcasePages": [
+    "urn:li:fs_normalized_company:9487024",
+    "urn:li:fs_normalized_company:13223275",
+    "urn:li:fs_normalized_company:14015154",
+    "urn:li:fs_normalized_company:5009141",
+    "urn:li:fs_normalized_company:13223282",
+    "urn:li:fs_normalized_company:11169169",
+    "urn:li:fs_normalized_company:43351129",
+    "urn:li:fs_normalized_company:35598784",
+    "urn:li:fs_normalized_company:5254943"
+  ],
+  "claimableByViewer": false,
+  "jobSearchPageUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=277579%2C300516%2C31406",
+  "showcase": false,
+  "autoGenerated": false,
+  "backgroundCoverImage": {
+    "image": {
+      "com.linkedin.common.VectorImage": {
+        "artifacts": [
+          {
+            "width": 10000,
+            "fileIdentifyingUrlPathSegment": "10000/0/1602669286154?e=1680530400&v=beta&t=0yl-8F9BGAh-IBVDhFjHNcCKyoUwqnJijtbjS9iguyg",
+            "expiresAt": 1680530400000,
+            "height": 10000
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400/0/1602669286154?e=1680530400&v=beta&t=uvQgKSlyt63Yq7xMuO-XzM25xLVJJMdc5aeZaiEFIB4",
+            "expiresAt": 1680530400000,
+            "height": 400
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200/0/1602669286154?e=1680530400&v=beta&t=zVCGbRktfI8cd53zWX8skummYaYLYiwUxDdDRhKZw1o",
+            "expiresAt": 1680530400000,
+            "height": 200
+          }
+        ],
+        "rootUrl": "https://media.licdn.com/dms/image/C4D1BAQGvzfC_M4nLQw/company-background_"
+      }
+    },
+    "cropInfo": {
+      "x": 0,
+      "width": 1536,
+      "y": 187,
+      "height": 260
+    }
+  }
+}

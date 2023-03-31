@@ -12,8 +12,10 @@ headers = {
 	"X-RapidAPI-Host": "indeed-jobs-api.p.rapidapi.com"
 }
 
-querystring = {"offset":"0","keyword":"python","location":"Helsinki"}
+# querystring = {"offset":"0","keyword":"python","location":"Helsinki"}
+querystring = {"offset":"0","keyword":"python","location":"california"}
 
 response = requests.request("GET", url, headers=headers, params=querystring)
+response.raise_for_status()
 
-print(response.text)
+print(response.json())

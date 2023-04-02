@@ -1,0 +1,50 @@
+[
+    {
+      "position": 13,
+      "company_name": "IBM",
+      "job_title": "Technical Lenovo FrontEnd Support",
+      "job_location": "Helsinki",
+      "salary": "No Salary Mentioned",
+      "date": "30-03-23",
+      "job_url": "https://fi.indeed.com/viewjob?viewtype=embedded&jk=36135dcddd44b37c&from=vjs&tk=1gt00qeboi3pr801&continueUrl=%2Fjobs%3Ffilter%3D0%26q%3Dcloud%26start%3D10%26l%3DSuomi",
+      "urgently_hiring": "Not Urgently Hiring",
+      "multiple_hiring": "No Multiple Hiring",
+      "company_rating": "3.9/5",
+      "company_reviews": 32098,
+      "company_review_link": "https://fi.indeed.com/cmp/IBM/reviews",
+      "company_logo_url": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e33d1816f29251d95814fd99eae809df",
+      "page_number": 2
+    },
+    {
+      "position": 14,
+      "company_name": "ONEiO",
+      "job_title": "Application specialist",
+      "job_location": "Helsinki",
+      "salary": "No Salary Mentioned",
+      "date": "01-02-23",
+      "job_url": "https://fi.indeed.com/viewjob?viewtype=embedded&jk=1cbe89f8075631e5&from=vjs&tk=1gt00qeboi3pr801&continueUrl=%2Fjobs%3Ffilter%3D0%26q%3Dcloud%26start%3D10%26l%3DSuomi",
+      "urgently_hiring": "Not Urgently Hiring",
+      "multiple_hiring": "No Multiple Hiring",
+      "company_rating": "0/5",
+      "company_reviews": 0,
+      "company_review_link": "No Review Link",
+      "company_logo_url": "No Logo",
+      "page_number": 2
+    },
+    {
+      "position": 15,
+      "company_name": "Vaisala",
+      "job_title": "Cloud Architect",
+      "job_location": "Helsinki",
+      "salary": "No Salary Mentioned",
+      "date": "17-02-23",
+      "job_url": "https://fi.indeed.com/viewjob?viewtype=embedded&jk=e0b409cb6c29832f&from=vjs&tk=1gt00qeboi3pr801&continueUrl=%2Fjobs%3Ffilter%3D0%26q%3Dcloud%26start%3D10%26l%3DSuomi",
+      "urgently_hiring": "Not Urgently Hiring",
+      "multiple_hiring": "No Multiple Hiring",
+      "company_rating": "3.5/5",
+      "company_reviews": 44,
+      "company_review_link": "https://fi.indeed.com/cmp/Vaisala/reviews",
+      "company_logo_url": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3cff65951b5df9895bdda6faeef1fa95",
+      "page_number": 2
+    }
+  ]

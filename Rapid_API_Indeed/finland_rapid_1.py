@@ -6,7 +6,8 @@ import time
 
 load_dotenv()
 token = os.environ.get("X-RapidAPI-Key")
-url = "https://indeed-jobs-api.p.rapidapi.com/indeed-us/"
+# url = "https://indeed-jobs-api.p.rapidapi.com/indeed-us/"
+url = "https://rapidapi.com/vuesdata/api/indeed-jobs-api-finland"
 
 headers = {
 	"X-RapidAPI-Key": token,
@@ -14,13 +15,15 @@ headers = {
 }
 endpoint = 20
 # for offset in range(0, 641, 10):
-with open('logfile_by_macro.json', 'a+', encoding='utf-8') as fp:
-	for offset in range(0, endpoint, 10):
+with open('logfile_by_macro_4.json', 'a+', encoding='utf-8') as fp:
+	for offset in range(0, 10, 10):
 
-		querystring = {"offset":f"{offset}","keyword":"flutter","location":"california"}
+		# querystring = {"offset":f"{offset}","keyword":"flutter","location":"california"}
+		querystring = {"offset":"0","keyword":"python developer","location":"california"}		
 
 		response = requests.request("GET", url, headers=headers, params=querystring)
+		response.raise_for_status()
 
 		print(response.text)
 		json.dump(response.json(), fp, indent=2, ensure_ascii=False, sort_keys=True)
-		time.sleep(70)
+		# time.sleep(70)

@@ -2,6 +2,7 @@ import requests
 import os
 import json
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 token = os.environ.get("X-RapidAPI-Key")
@@ -9,10 +10,10 @@ url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
 job_data = []
 
 def start(offset):
-	with open('auto_loop_3.json', 'a+', encoding='utf-8') as fp:
+	with open('auto_loop_4.json', 'a+', encoding='utf-8') as fp:
 		querystring = {
 			"offset": f"{offset}", 
-			"keyword": "python developer", 
+			"keyword": "embedded", 
 			"location": "suomi"
 		}
 
@@ -25,6 +26,7 @@ def start(offset):
 		response = requests.request("GET", url, headers=headers, params=querystring)
 		
 		print(response.text)
+		time.sleep(6)
 		response = json.loads(response.text)
 		next_page = response[0]['next_page']
 

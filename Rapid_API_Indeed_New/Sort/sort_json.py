@@ -39,31 +39,23 @@ data = [
 
 import json
 from datetime import datetime
-import re
-import math
+
+# https://www.youtube.com/watch?v=00JL7QfWPC0&t=30s
 
 if __name__ == "__main__":
-    temp = sorted(
 
+    print(type(data))
+
+    temp = sorted(
         data,
         reverse=True,
-        key = lambda x: datetime.strptime(x["date"], '%y-%m-%d')
+        # key = lambda x: datetime.strptime(x["date"], '%y-%m-%d')
+        key = lambda x: (x["date"] == "null", x["date"] == "" , x["date"])
     )
 
-    print(temp)
+    json_dump = json.dumps(temp, indent=2, ensure_ascii=False, sort_keys=True)
+    print(json_dump)
 
-
-
-
-# from datetime import datetime
-
-# date_string = "21 June, 2018"
-
-# print("date_string =", date_string)
-# print("type of date_string =", type(date_string))
-
-# date_object = datetime.strptime(date_string, "%d %B, %Y")
-
-# print("date_object =", date_object)
-# print("type of date_object =", type(date_object))
+    with open('logfile.json', 'w', encoding='utf-8') as fp:
+        fp.write(json_dump)
 

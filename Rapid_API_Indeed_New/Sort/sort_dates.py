@@ -1,5 +1,6 @@
 # importing datetime
 from datetime import datetime
+# https://www.youtube.com/watch?v=00JL7QfWPC0&t=30s
 
 # input list of date strings
 inputDateList = ['21-06-14', '23-08-20', '22-04-03']

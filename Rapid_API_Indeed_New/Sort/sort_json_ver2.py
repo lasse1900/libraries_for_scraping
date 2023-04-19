@@ -1,7 +1,6 @@
 
 import json
 from datetime import datetime
-# https://www.youtube.com/watch?v=00JL7QfWPC0&t=30s
 
 with open('python_developer_suomi.json') as user_file:
     file_contents = json.load(user_file)

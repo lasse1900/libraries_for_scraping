@@ -1,11 +1,10 @@
 from docx import Document
-from docx.shared import Inches
 import json
 
 doc = Document()
 doc.add_heading('Open Jobs', 0)
 
-with open('sorted_header.json') as user_file:
+with open('sorted_header.json', encoding='utf-8') as user_file:
     file_contents = json.load(user_file)
 
 print(type(file_contents)) # dict

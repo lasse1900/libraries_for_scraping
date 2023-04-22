@@ -2,8 +2,10 @@
 import json
 from datetime import datetime
 
-with open('python_developer_suomi.json') as user_file:
+with open('jobs_short.json') as user_file:
     file_contents = json.load(user_file)
+
+print(type(file_contents))
 
 if __name__ == "__main__":
 

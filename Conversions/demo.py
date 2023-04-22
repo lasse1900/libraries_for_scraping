@@ -1,6 +1,5 @@
 import json
 import pypandoc
-# https://github.com/tiffsea/python-code/blob/master/demos/convert-json.py
 
 class Convert_Json():
 
@@ -46,11 +45,11 @@ class Convert_Json():
         print('Md successfully converted to docx')
 
 # # driver code - uncomment and fill out
-fn = 'formated.json'
-# fn = 'output.json'
-title = "Jobs"
+# fn = 'sorted_with_header.json' 
+fn = 'sorted_data.json' 
+title = "TITLE!!"
 converter = Convert_Json(fn, title)
 
-# converter.convert_json_to_txt(output_fn='json-to-txt.txt') # uncomment for text output
+converter.convert_json_to_txt(output_fn='json-to-txt.txt') # uncomment for text output
 converter.convert_dict_to_md(output_fn='dict-to-md.md') # uncomment for markdown output
 converter.convert_md_to_docx(output_fn='md-to-docx.docx') # uncomment for Word output

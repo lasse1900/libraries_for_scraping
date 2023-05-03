@@ -10,7 +10,8 @@ token = os.environ.get("X-RapidAPI-Key")
 url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
 job_data = []
 
-def start(offset, filename,keyword, location):
+def start(offset, filename, keyword, location):
+	print(f"at start-> filename: {filename}, keyword: {keyword}, location: {location}")
 	with open(filename, 'a+', encoding='utf-8') as fp:
 		querystring = {
 			"offset": f"{offset}", 
@@ -48,10 +49,13 @@ def load_jobs(argv1, argv2):
     print(f'filename: {filename}')
     keyword = argv2
     print(f'keyword: {keyword}')
-    print(f'{len(sys.argv)} argumets were given')
+    print(f'{len(sys.argv)} argumet(s) were given')
+    # location = arvg3
+    # print(f"{location}")
     
     if len(sys.argv) > 3:
        location = sys.argv[3]
+    #    print(f"location: {location} ")
        start(offset.__str__(), filename, keyword, location)
     else:
        start(offset.__str__(), filename, keyword, location='suomi')

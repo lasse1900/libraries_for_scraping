@@ -2,6 +2,7 @@ import time
 import json
 import os
 from request_jobs import load_jobs
+from append_json_files import parse_json_files_together
 from sort_json import sort
 from format_json import format_2_docx
 from send_email_to_csv_contacts_once_a_day import send_email
@@ -15,6 +16,12 @@ if os.path.exists("input_2.json"):
     os.remove("input_2.json")
 if os.path.exists("input_3.json"):
     os.remove("input_3.json")
+if os.path.exists("jobs.docx"):
+    os.remove("jobs.docx")
+if os.path.exists("sorted.json"):
+    os.remove("sorted.json")
+if os.path.exists("output.json"):
+    os.remove("output.json")
 
 # get the amount of argument lines
 with open(r"search_terms.txt", 'r') as fp:
@@ -36,35 +43,13 @@ with open("search_terms.txt") as file:
 
 time.sleep(5)
 print("Hi, I'm appending files for 5 seconds..." )
-
-def write_json(data, filename="output.json"):
-    with open(filename, "w", encoding='utf-8') as file:
-        json.dump(data, file, indent=4)
-
-with open("input_0.json", encoding='utf-8') as json_file:
-    data = json.load(json_file)
-
-with open("input_1.json", encoding='utf-8') as json_file:
-    data2 = json.load(json_file)
-    temp = data
-    temp.extend(data2)
-
-with open("input_2.json", encoding='utf-8') as json_file:
-    data3 = json.load(json_file)
-    temp = data
-    temp.extend(data3)
-
-with open("input_3.json", encoding='utf-8') as json_file:
-    data4 = json.load(json_file)
-    temp = data
-    temp.extend(data4)
-
-write_json(data)
+parse_json_files_together()
 
 time.sleep(5)
 print("Hi, I'm sorting files for 5 seconds...")
 # sort json file according to descending date
 sort()
+
 time.sleep(2)
 print("Hi, I'm formating json to docx for 5 seconds...")
 # formating json file into word document

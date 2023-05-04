@@ -1,5 +1,4 @@
 import time
-import json
 import os
 from request_jobs import load_jobs
 from append_json_files import parse_json_files_together
@@ -8,6 +7,7 @@ from format_json import format_2_docx
 from send_email_to_csv_contacts_once_a_day import send_email
 
 # delete old files
+# TODO make method of these deletetions
 if os.path.exists("input_0.json"):
     os.remove("input_0.json")
 if os.path.exists("input_1.json"):
@@ -29,7 +29,8 @@ with open(r"search_terms.txt", 'r') as fp:
         pass
 print('Total Lines', count + 1)
 
-# request open jobs with keyword 1
+# request open jobs with keywords given in search_terms.txt file
+# TODO count the number of parameters and act accordingly
 with open("search_terms.txt") as file:
     lines = [line.rstrip() for line in file]
     print(lines[0])
@@ -43,6 +44,7 @@ with open("search_terms.txt") as file:
 
 time.sleep(5)
 print("Hi, I'm appending files for 5 seconds..." )
+# TODO for starters give the amount of params as an argument to parse_json_files_together()
 parse_json_files_together()
 
 time.sleep(5)

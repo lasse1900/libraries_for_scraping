@@ -7,7 +7,8 @@ load_dotenv()
 token = os.environ.get("X-RapidAPI-Key")
 url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
 
-querystring = {"offset":"0","keyword":"django","location":"Helsinki"}
+# querystring = {"offset":"0","keyword":"django","location":"Helsinki"}
+querystring = {"offset":"0","keyword":"embedded","location":"suomi"}
 
 headers = {
 	"X-RapidAPI-Key": token,

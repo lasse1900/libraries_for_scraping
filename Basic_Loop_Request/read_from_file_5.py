@@ -5,9 +5,9 @@ import pandas
 import pathlib
 import itertools
 from request_jobs import load_jobs
-from sort_json import sort
-from format_json import format_2_docx
-from send_email_to_csv_contacts_once_a_day import send_email
+# from sort_json import sort
+# from format_json import format_2_docx
+# from send_email_to_csv_contacts_once_a_day import send_email
 
 # delete old files
 if os.path.exists("input_0.json"):

@@ -8,11 +8,11 @@ token = os.environ.get("X-RapidAPI-Key")
 url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
 
 def start(offset):
-	with open('auto_loop.json', 'a+', encoding='utf-8') as fp:
+	with open('auto_loop2.json', 'a+', encoding='utf-8') as fp:
 		querystring = {
 			"offset": f"{offset}", 
 			"keyword": "embedded", 
-			"location": "suomi"
+			"location": "tampere"
 		}
 
 		headers = {

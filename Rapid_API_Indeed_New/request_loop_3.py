@@ -6,13 +6,17 @@ from dotenv import load_dotenv
 load_dotenv()
 token = os.environ.get("X-RapidAPI-Key")
 url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
+job_data = []
+filename = "auto_loop.json"
+keyword = "embedded"
+location = "suomi"
 
 def start(offset):
-	with open('auto_loop.json', 'a+', encoding='utf-8') as fp:
+	with open(filename, 'a+', encoding='utf-8') as fp:
 		querystring = {
 			"offset": f"{offset}", 
-			"keyword": "embedded", 
-			"location": "suomi"
+			"keyword": keyword, 
+			"location": location
 		}
 
 		headers = {
@@ -26,16 +30,16 @@ def start(offset):
 		print(response.text)
 		response = json.loads(response.text)
 		next_page = response[0]['next_page']
-
+                
 		if next_page == 'True':
-			json.dump(response, fp, indent=2, ensure_ascii=False, sort_keys=True)
-			offset += 10
-			start(offset)
+			job_data.extend(response)
+			offset += str(10)
+			start(offset, filename, keyword, location)
 		else:
-			json.dump(response, fp, indent=2, ensure_ascii=False, sort_keys=True)
+			job_data.extend(response)
 			print("No more pages")
+			json.dump(job_data, fp, indent=2, ensure_ascii=False, sort_keys=True)
 			return
-
 
 def main():
     offset = 0

@@ -8,14 +8,12 @@ load_dotenv()
 token = os.environ.get("X-RapidAPI-Key")
 url = "https://indeed-jobs-api-finland.p.rapidapi.com/indeed-fi/"
 job_data = []
-filename = "request_loop4.json"
-# keyword = "software testing"
-keyword = "quality assurance"
-location = "helsinki"
 if os.path.exists("request_loop4.json"):
 	os.remove("request_loop4.json")
 
-def start(offset):
+def start(offset, filename, keyword, location):
+	print(f"offset at start beginning: {offset}")
+	print(f"offset at start beginning: {keyword}")
 	with open(filename, 'a+', encoding='utf-8') as fp:
 		querystring = {
 			"offset": f"{offset}", 
@@ -38,17 +36,29 @@ def start(offset):
 		if next_page == 'True':
 			job_data.extend(response)
 			offset += (10)
-			start(offset)
+			print(f"offset in if next page: {offset}")
+			start(offset, filename, keyword, location)
 		else:
 			job_data.extend(response)
 			print("No more pages")
 			json.dump(job_data, fp, indent=2, ensure_ascii=False, sort_keys=True)
 			return
 
-def main():
-    offset = 0
-    start(offset)
+def main(offset, filename, keyword, location):
+    # Your main function code here
+    print("Argument 1:", offset)
+    print("Argument 2:", filename)
+    print("Argument 3:", keyword)
+    print("Argument 4:", location)
+    print(f"offset in main: {offset}")
 
+    start(offset, filename, keyword, location)
+    
+if __name__ == '__main__':	
+	arg1_value = 0
+	arg2_value = ""
+	arg3_value = ""
+	arg4_value = ""
 
-if __name__ == '__main__':
-    main()
+    # Call the main function with the arguments
+	main(arg1_value, arg2_value, arg3_value, arg4_value)

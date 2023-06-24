@@ -1,0 +1,9 @@
+
+Esim:
+$creds = get-credential
+
+Send-MailMessage –From noreply@etteplan.com –To vastaanottaja@etteplan.com –Subject "smtprelay Test Email" –Body "Test SMTP Service from Powershell on Port 587" -SmtpServer outlook.office365.com -Credential $creds -UseSsl -Port 587
+
+$creds = get-credential
+
+Send-MailMessage –From noreply@etteplan.com –To lauri.kyttala@etteplan.com –Subject "smtprelay Test Email" –Body "Test SMTP Service from Powershell on Port 587" -SmtpServer outlook.office365.com -Credential $creds -UseSsl -Port 587

@@ -1,0 +1,7 @@
+.env
+*.png
+*.log
+*.json
+*.docx
+*.pdf
+*.md

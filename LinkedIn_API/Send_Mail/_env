@@ -1,0 +1,4 @@
+X-RapidAPI-Key = "Your RapidAPI-key"
+YAGMAIL_PASS = "your yagmail password"
+HOTMAIL_PASS = "your hotmail password"
+OUTLOOK_PASS = "your outlook password"

@@ -17,10 +17,10 @@ def send_email():
     smtp_server = "smtp.office365.com"
     smtp_port = 587
 
-    message = MIMEMultipart()
-    message['From'] = sender
-    message['To'] = receiver
-    message['Subject'] = "Open Jobs on Indeed.com"
+    msg = MIMEMultipart()
+    msg['From'] = sender
+    msg['To'] = receiver
+    msg['Subject'] = "Open Jobs on Indeed.com"
 
     body = """
     <h2>Hi, here's attached files gererated by AJS-application!</h2>
@@ -28,7 +28,7 @@ def send_email():
     Br, AJS-team
     """
     mimetext = MIMEText(body, 'html')
-    message.attach(mimetext)
+    msg.attach(mimetext)
 
     # Exception handling if some of files are missing
     try:
@@ -40,7 +40,7 @@ def send_email():
                 attachment.add_header(
                     "Content-Disposition", "attachment", filename=attachment_path
                 )
-            message.attach(attachment)
+            msg.attach(attachment)
     except Exception as e:
         print("An error occurred while attaching the files", str(e))
 
@@ -53,12 +53,13 @@ def send_email():
             server.login(email_account, password)
 
             # Send email
-            server.send_message(message)
+            server.send_message(msg)
 
         print("Email sent successfully!")
     except Exception as e:
         print("An error occurred while sending the email:", str(e))
 
 # Call the function to send the email
-send_email()
+if __name__ == '__main__':
+    send_email()
 
